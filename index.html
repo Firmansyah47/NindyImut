@@ -1,1 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Our Little Garden 🌿</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         OPENING
+    ========================== -->
+
+    <section id="opening">
+
+        <div class="garden-bg"></div>
+
+        <!-- Daun pembuka -->
+        <div class="leaf leaf-left"></div>
+        <div class="leaf leaf-right"></div>
+        <div class="leaf leaf-top"></div>
+        <div class="leaf leaf-bottom"></div>
+
+        <div class="welcome-box">
+
+            <p class="small-title">
+                A little secret garden...
+            </p>
+
+            <h1>
+                For You 🌿
+            </h1>
+
+            <p class="question">
+                Enter the secret password
+            </p>
+
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="Password..."
+            >
+
+            <button id="enterButton">
+                ENTER
+            </button>
+
+            <p id="wrongPassword">
+                Hmm... that's not it 🤭
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ALBUM
+    ========================== -->
+
+    <main id="albumPage">
+
+        <div class="album-bg"></div>
+
+        <!-- Musik -->
+        <audio id="bgMusic" loop>
+            <source
+                src="https://raw.githubusercontent.com/Firmansyah47/NindyImut/main/music/anniversary.mp3"
+                type="audio/mpeg"
+            >
+        </audio>
+
+        <!-- Tombol musik -->
+        <button id="musicButton">
+            🎵
+        </button>
+
+
+        <!-- Partikel daun -->
+        <div class="falling-leaves"></div>
+
+
+        <!-- Header -->
+
+        <section class="album-intro">
+
+            <p>
+                Our first little chapter
+            </p>
+
+            <h1>
+                One Year With You 🌿
+            </h1>
+
+            <span>
+                A collection of little memories I never want to forget.
+            </span>
+
+        </section>
+
+
+        <!-- =========================
+             PHOTO 1
+        ========================== -->
+
+        <section class="memory memory-1">
+
+            <div class="photo-card">
+                <img src="https://raw.githubusercontent.com/Firmansyah47/NindyImut/main/Nindy1.jpg">
+
+                <div class="photo-caption">
+                    <h2>01 — The Beginning</h2>
+
+                    <p>
+                        Tulis perasaan atau cerita lu tentang foto pertama di sini.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PHOTO 2
+        ========================== -->
+
+        <section class="memory memory-2">
+
+            <div class="photo-card">
+
+                <img src="https://raw.githubusercontent.com/Firmansyah47/NindyImut/main/Nindy2.jpg">
+
+                <div class="photo-caption">
+                    <h2>02 — A Little Memory</h2>
+
+                    <p>
+                        Tulis cerita lu di sini.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PHOTO 3
+        ========================== -->
+
+        <section class="memory memory-3">
+
+            <div class="photo-card">
+
+                <img src="https://raw.githubusercontent.com/Firmansyah47/NindyImut/main/Nindy3.jpg">
+
+                <div class="photo-caption">
+                    <h2>03 — You</h2>
+
+                    <p>
+                        Tulis cerita lu di sini.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PHOTO 4
+        ========================== -->
+
+        <section class="memory memory-4">
+
+            <div class="photo-card">
+
+                <img src="https://raw.githubusercontent.com/Firmansyah47/NindyImut/main/Nindy4.jpg">
+
+                <div class="photo-caption">
+                    <h2>04 — Another Day</h2>
+
+                    <p>
+                        Tulis cerita lu di sini.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PHOTO 5
+        ========================== -->
+
+        <section class="memory memory-5">
+
+            <div class="photo-card">
+
+                <img src="https://raw.githubusercontent.com/Firmansyah47/NindyImut/main/Nindy5.jpg">
+
+                <div class="photo-caption">
+                    <h2>05 — Still You</h2>
+
+                    <p>
+                        Tulis cerita lu di sini.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PHOTO 6
+        ========================== -->
+
+        <section class="memory memory-6">
+
+            <div class="photo-card">
+
+                <img src="https://raw.githubusercontent.com/Firmansyah47/NindyImut/main/Nindy6.jpg">
+
+                <div class="photo-caption">
+                    <h2>06 — Our Story</h2>
+
+                    <p>
+                        Tulis cerita lu di sini.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ENDING
+        ========================== -->
+
+        <section class="ending">
+
+            <p class="ending-small">
+                And our little garden continues...
+            </p>
+
+            <h1>
+                Thank You
+            </h1>
+
+            <p class="ending-text">
+                Thank you for being part of my first year with you.
+                Whatever happens next, these little memories
+                will always be special to me.
+            </p>
+
+            <button id="finalButton">
+                One Last Thing 💌
+            </button>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================
+         FINAL POPUP
+    ========================== -->
+
+    <div id="finalPopup">
+
+        <div class="popup-box">
+
+            <button id="closePopup">
+                ×
+            </button>
+
+            <p>
+                For Nindy 🌷
+            </p>
+
+            <h2>
+                Happy Anniversary
+            </h2>
+
+            <div class="final-message">
+
+                <p>
+                    Tulis pesan terakhir lu di sini.
+                </p>
+
+                <p>
+                    Bisa panjang, bisa pendek.
+                    Nanti bagian ini kita bikin sebagus mungkin.
+                </p>
+
+            </div>
+
+            <span>
+                — From me, with love.
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
