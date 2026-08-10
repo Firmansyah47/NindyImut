@@ -45,7 +45,7 @@ const closePopup =
 
 */
 
-const PASSWORD = "Kucing";
+const PASSWORD = "sayang";
 
 
 function enterGarden() {
