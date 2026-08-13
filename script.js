@@ -64,11 +64,18 @@ function enterGarden() {
            ENTER ditekan.
         */
 
-        bgMusic.volume = 0.35;
+        bgMusic.volume = 1;
 
-        bgMusic.play().catch(() => {
-            console.log("Music couldn't start.");
-        });
+bgMusic.currentTime = 0;
+
+bgMusic.play()
+    .then(() => {
+        musicButton.textContent = "🎵";
+        console.log("Music berhasil diputar!");
+    })
+    .catch((error) => {
+        console.log("Music gagal:", error);
+    });
 
 
         /*
